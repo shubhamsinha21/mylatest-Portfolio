@@ -15,7 +15,6 @@ import {
 const App = () => {
   return (
     <>
-      {/* <div>hrll</div> */}
       <BrowserRouter>
         <div className="relative z-0 bg-tertiary">
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">

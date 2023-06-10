@@ -1,7 +1,7 @@
 import {
     mobile,
-    backend,
-    creator,
+    blockchain,
+    datascience,
     web,
     javascript,
     typescript,
@@ -15,10 +15,8 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    fintech,
+    zauvijek,
     carrent,
     jobit,
     tripguide,
@@ -50,12 +48,12 @@ const services = [
         icon: mobile,
     },
     {
-        title: "Backend Developer",
-        icon: backend,
+        title: "Blockchain Developer",
+        icon: blockchain,
     },
     {
-        title: "Content Creator",
-        icon: creator,
+        title: "Data Science",
+        icon: datascience,
     },
 ];
 
@@ -116,57 +114,32 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Data Analyst",
+        company_name: "Fintech and Blockchain Association",
+        icon: fintech,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "May 2022 - Aug 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Data Mining and Data Gathering from various sources.",
+            "Data Preprocessing and Data Cleansing based on what is actual useful for building the model.",
+            "Collaborating with Finance team for Verification of Datasets.",
+            "Representation of visual data using python libraries.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Software Engineer Intern",
+        company_name: "Zauvijek Tech Private Limited",
+        icon: zauvijek,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "Mar 2023, Apr 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing User Interface of company website Using Next Js and Chakra UI.",
+            "Created Zauvujek Business Profile Using Canva.",
+            "Writing Documentation, creating Flow Diagrams and Design's on Figma.",
+            "Interacting with other developers and building the IT-DESK product.",
         ],
     },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+
 ];
 
 const testimonials = [

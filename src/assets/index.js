@@ -6,32 +6,24 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import herobg from "./herobg.png"
+import herobg from "./herobg.png";
 
 import css from "./tech/css.png";
 
-
 import solidity from "./tech/solidity.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import nextjs from './tech/nextjs.png'
-
-
+import nextjs from "./tech/nextjs.png";
 
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import chakra from "./tech/chakra.jpg";
 
-
-
-
-import fintech from "./company/fintech.jpg"
+import fintech from "./company/fintech.jpg";
 import zauvijek from "./company/zauvijek.jpg";
 
 import spotifyMusic from "./spotifyMusic.png";
@@ -49,8 +41,6 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
@@ -68,5 +58,5 @@ export {
   spotifyMusic,
   solidity,
   passwordGenerator,
-  portfolio
+  portfolio,
 };

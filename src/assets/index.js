@@ -9,6 +9,9 @@ import close from "./close.svg";
 import herobg from "./herobg.png"
 
 import css from "./tech/css.png";
+
+
+import solidity from "./tech/solidity.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -17,10 +20,14 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
+import nextjs from './tech/nextjs.png'
+
+
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import chakra from "./tech/chakra.jpg";
+
+
 
 
 import fintech from "./company/fintech.jpg"
@@ -48,8 +55,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
-  tailwind,
+  nextjs,
   typescript,
   threejs,
   fintech,
@@ -57,5 +63,9 @@ export {
   carrent,
   jobit,
   tripguide,
-  herobg
+  herobg,
+  chakra,
+
+  solidity,
+
 };

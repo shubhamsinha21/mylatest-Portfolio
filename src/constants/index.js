@@ -8,8 +8,9 @@ import {
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
+    nextjs,
+    chakra,
+    solidity,
     nodejs,
     mongodb,
     git,
@@ -74,18 +75,21 @@ const technologies = [
         name: "TypeScript",
         icon: typescript,
     },
+
     {
         name: "React JS",
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "Next JS",
+        icon: nextjs,
     },
+
     {
-        name: "Tailwind CSS",
-        icon: tailwind,
+        name: "Chakra UI",
+        icon: chakra,
     },
+
     {
         name: "Node JS",
         icon: nodejs,
@@ -98,6 +102,11 @@ const technologies = [
         name: "Three JS",
         icon: threejs,
     },
+    {
+        name: "Solidity",
+        icon: solidity,
+    },
+
     {
         name: "git",
         icon: git,
@@ -139,7 +148,6 @@ const experiences = [
             "Interacting with other developers and building the IT-DESK product.",
         ],
     },
-
 ];
 
 const testimonials = [

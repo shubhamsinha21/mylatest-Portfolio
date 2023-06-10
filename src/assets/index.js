@@ -23,6 +23,7 @@ import reactjs from "./tech/reactjs.png";
 import nextjs from './tech/nextjs.png'
 
 
+
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import chakra from "./tech/chakra.jpg";
@@ -33,9 +34,9 @@ import chakra from "./tech/chakra.jpg";
 import fintech from "./company/fintech.jpg"
 import zauvijek from "./company/zauvijek.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import spotifyMusic from "./spotifyMusic.png";
+import currencyConverter from "./currencyConverter.png";
+
 
 export {
   logo,
@@ -60,12 +61,10 @@ export {
   threejs,
   fintech,
   zauvijek,
-  carrent,
-  jobit,
-  tripguide,
+  currencyConverter,
   herobg,
   chakra,
-
+  spotifyMusic,
   solidity,
 
 };

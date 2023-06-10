@@ -18,10 +18,9 @@ import {
     docker,
     fintech,
     zauvijek,
-    carrent,
-    jobit,
-    tripguide,
+    spotifyMusic,
     threejs,
+    currencyConverter
 } from "../assets";
 
 export const navLinks = [
@@ -179,58 +178,16 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "SpotifyMusic",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Android Music Player App using React-Native and typescript.",
         tags: [
             {
-                name: "react",
+                name: "react-native",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
+                name: "typescript",
                 color: "green-text-gradient",
             },
             {
@@ -238,9 +195,52 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: spotifyMusic,
+        source_code_link: "https://github.com/shubhamsinha21/SpotifyMusic",
     },
+
+    {
+        name: "Currency Converter",
+        description:
+            "Currency Converter Application for android that simply converts currency in Indian Rupees.",
+        tags: [
+            {
+                name: "react-native",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "typescript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: currencyConverter,
+        source_code_link: "https://github.com/shubhamsinha21/CurrencyConverterApp",
+    },
+
+    {
+        name: "Password Generator",
+        description:
+            "Currency Converter Application for android that simply converts currency in Indian Rupees.",
+        tags: [
+            {
+                name: "react-native",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "typescript",
+                color: "green-text-gradient",
+            },
+
+        ],
+        image: passwordGenerator,
+        source_code_link: "https://github.com/shubhamsinha21/CurrencyConverterApp",
+    },
+
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

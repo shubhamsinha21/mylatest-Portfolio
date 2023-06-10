@@ -14,8 +14,6 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     fintech,
     zauvijek,
     spotifyMusic,
@@ -111,14 +109,6 @@ const technologies = [
     {
         name: "git",
         icon: git,
-    },
-    {
-        name: "figma",
-        icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
     },
 ];
 

@@ -20,7 +20,9 @@ import {
     zauvijek,
     spotifyMusic,
     threejs,
-    currencyConverter
+    currencyConverter,
+    passwordGenerator,
+    portfolio
 } from "../assets";
 
 export const navLinks = [
@@ -178,9 +180,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "SpotifyMusic",
+        name: "SpotifyMusic App",
         description:
-            "Android Music Player App using React-Native and typescript.",
+            "Android Music Player App using React-Native and typescript. It uses react-native playback service library to create playlist",
         tags: [
             {
                 name: "react-native",
@@ -200,7 +202,7 @@ const projects = [
     },
 
     {
-        name: "Currency Converter",
+        name: "Currency Converter App",
         description:
             "Currency Converter Application for android that simply converts currency in Indian Rupees.",
         tags: [
@@ -222,9 +224,9 @@ const projects = [
     },
 
     {
-        name: "Password Generator",
+        name: "Password Generator App",
         description:
-            "Currency Converter Application for android that simply converts currency in Indian Rupees.",
+            "App that generated password. It has 4 options such as - uppercase, lowercase, numbers & symbols.",
         tags: [
             {
                 name: "react-native",
@@ -237,7 +239,34 @@ const projects = [
 
         ],
         image: passwordGenerator,
-        source_code_link: "https://github.com/shubhamsinha21/CurrencyConverterApp",
+        source_code_link: "https://github.com/shubhamsinha21/Password-Generator-App",
+    },
+
+    {
+        name: "Portfolio Website",
+        description:
+            "Portfolio Website to showcase my skills and experiences.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "three-js",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "tailwindCss",
+                color: "red-text-gradient",
+            },
+
+        ],
+        image: portfolio,
+        source_code_link: "https://github.com/shubhamsinha21/mylatest-Portfolio",
     },
 
 

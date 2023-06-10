@@ -36,7 +36,8 @@ import zauvijek from "./company/zauvijek.jpg";
 
 import spotifyMusic from "./spotifyMusic.png";
 import currencyConverter from "./currencyConverter.png";
-
+import passwordGenerator from "./passwordGenerator.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   chakra,
   spotifyMusic,
   solidity,
-
+  passwordGenerator,
+  portfolio
 };
